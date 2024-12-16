@@ -1,0 +1,23 @@
+{
+  "name": "car-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "save-dev": "^0.0.1-security",
+    "typescript": "^5.7.2",
+    "vercel": "^39.2.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "ts-node-dev": "^2.0.0"
+  }
+}
